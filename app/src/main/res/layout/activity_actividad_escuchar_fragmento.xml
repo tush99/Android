@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Vista.actividades.ActividadEScucharFragmento">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="272dp"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/frgEnviar"
+            android:name="com.example.myapplication.Vista.fragmentos.FrgEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="269dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/frgResivir"
+            android:name="com.example.myapplication.Vista.fragmentos.FrgResivir"
+            android:layout_width="match_parent"
+            android:layout_height="248dp" />
+    </LinearLayout>
+
+</LinearLayout>

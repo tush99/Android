@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.uv.lisitt.actionbartest.MainActivity">
+
+
+    <item
+        android:id="@+id/empty"
+        android:icon="@drawable/descargar"
+        android:orderInCategory="101"
+        android:title="TODO"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/opcionArtistaMenuInterna"
+                android:icon="@mipmap/ic_launcher"
+                android:orderInCategory="100"
+                android:title="Interna"
+                app:showAsAction="always|withText" />
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/dad"
+        android:icon="@drawable/mic"
+        android:orderInCategory="101"
+        android:title="TODO"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/opcionRawProMenu"
+                android:icon="@mipmap/ic_launcher"
+                android:orderInCategory="100"
+                android:title="Raw"
+                app:showAsAction="always|withText" />
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu1"
+        android:icon="@drawable/musicalista"
+        android:orderInCategory="101"
+        android:title="TODO"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/opncionSDMenu"
+                android:icon="@mipmap/ic_launcher"
+                android:orderInCategory="100"
+                android:title="Memoria SD"
+                app:showAsAction="always|withText" />
+
+        </menu>
+    </item>
+</menu>

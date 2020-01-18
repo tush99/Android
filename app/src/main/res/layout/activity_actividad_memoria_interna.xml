@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Vista.actividades.ActividadMemoriaInterna">
+
+    <EditText
+        android:id="@+id/txtMemorianombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/txtMemoriaApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/txtMemoriaNomArtistico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+
+    <ImageView
+        android:id="@+id/imgMemoriaArtista"
+        android:layout_width="254dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/calvo" />
+
+    <Button
+        android:id="@+id/btndubitImg"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:text="SUbir" />
+
+    <TextView
+        android:id="@+id/lbldireImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnMemoriaGuarfar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="Guardar" />
+
+        <Button
+            android:id="@+id/btnMemoriaBuscar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Buscar" />
+
+        <Button
+            android:id="@+id/btnMemoriaListar"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Listar" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblMemoriaDatos"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:text="" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecicleMemoria"
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+</LinearLayout>
